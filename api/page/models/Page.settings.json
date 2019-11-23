@@ -14,7 +14,7 @@
     "comment": ""
   },
   "attributes": {
-    "TopTextBanner": {
+    "introTextBanner": {
       "group": "text_banner",
       "type": "group"
     },
@@ -23,23 +23,23 @@
       "via": "related",
       "plugin": "upload"
     },
-    "Video": {
+    "video": {
       "model": "file",
       "via": "related",
       "plugin": "upload"
     },
-    "RoloBanner": {
+    "roloBanner": {
       "group": "link",
       "type": "group"
     },
     "hideContactForm": {
       "type": "boolean"
     },
-    "TextBanner": {
+    "textBanner": {
       "group": "text_banner",
       "type": "group"
     },
-    "ExitTextBanner": {
+    "exitTextBanner": {
       "group": "text_banner",
       "type": "group"
     },

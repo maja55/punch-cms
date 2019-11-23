@@ -9,14 +9,14 @@
     "intro": {
       "type": "string"
     },
-    "punchLine": {
-      "type": "string"
-    },
     "link": {
       "type": "string"
     },
     "description": {
       "type": "text"
+    },
+    "punchline": {
+      "type": "string"
     }
   }
 }
