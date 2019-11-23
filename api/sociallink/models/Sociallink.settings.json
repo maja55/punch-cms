@@ -14,7 +14,7 @@
     "comment": ""
   },
   "attributes": {
-    "href": {
+    "link": {
       "type": "string",
       "unique": true,
       "required": true

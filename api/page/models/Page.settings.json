@@ -1,9 +1,9 @@
 {
   "connection": "default",
-  "collectionName": "pages",
+  "collectionName": "aboutpages",
   "info": {
     "name": "page",
-    "description": ""
+    "description": "content shown at /about page"
   },
   "options": {
     "increments": true,
@@ -14,24 +14,12 @@
     "comment": ""
   },
   "attributes": {
-    "punchlines": {
-      "type": "json"
-    },
-    "exitLink": {
-      "group": "link",
+    "TopTextBanner": {
+      "group": "text_banner",
       "type": "group"
     },
-    "title": {
-      "type": "string"
-    },
-    "name": {
-      "type": "string"
-    },
-    "text": {
-      "type": "text"
-    },
-    "Image": {
-      "model": "file",
+    "heroimage": {
+      "collection": "file",
       "via": "related",
       "plugin": "upload"
     },
@@ -39,6 +27,41 @@
       "model": "file",
       "via": "related",
       "plugin": "upload"
+    },
+    "RoloBanner": {
+      "group": "link",
+      "type": "group"
+    },
+    "hideContactForm": {
+      "type": "boolean"
+    },
+    "TextBanner": {
+      "group": "text_banner",
+      "type": "group"
+    },
+    "ExitTextBanner": {
+      "group": "text_banner",
+      "type": "group"
+    },
+    "projects": {
+      "collection": "project"
+    },
+    "news": {
+      "collection": "news"
+    },
+    "page": {
+      "unique": true,
+      "enum": [
+        "home",
+        "about",
+        "approach",
+        "contact"
+      ],
+      "required": true,
+      "type": "enumeration"
+    },
+    "steps": {
+      "collection": "step"
     }
   }
 }

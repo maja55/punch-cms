@@ -20,17 +20,11 @@
     "analyticsLayout": {
       "type": "boolean"
     },
-    "tags": {
-      "collection": "tag"
-    },
     "ContentArticles": {
       "collection": "contentarticle"
     },
     "intro": {
       "type": "text"
-    },
-    "AnalyticsArticles": {
-      "collection": "analyticsarticle"
     },
     "Thumbnail": {
       "model": "file",
@@ -49,6 +43,12 @@
       "via": "related",
       "plugin": "upload",
       "required": true
+    },
+    "tags": {
+      "collection": "tag"
+    },
+    "AnalyticsArticles": {
+      "collection": "analyticsarticle"
     }
   }
 }

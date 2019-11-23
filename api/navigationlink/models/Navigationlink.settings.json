@@ -19,16 +19,17 @@
       "unique": true,
       "required": true
     },
-    "href": {
-      "type": "string",
-      "unique": true,
-      "required": true
-    },
-    "symbol": {
-      "type": "string",
-      "maxLength": 1,
-      "required": true,
-      "unique": true
+    "pathname": {
+      "enum": [
+        "about",
+        "approach",
+        "contact",
+        "home",
+        "news",
+        "services",
+        "work"
+      ],
+      "type": "enumeration"
     }
   }
 }

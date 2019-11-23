@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "TextBanner",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_banners",
+  "attributes": {
+    "intro": {
+      "type": "string"
+    },
+    "punchLine": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

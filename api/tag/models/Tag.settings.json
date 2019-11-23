@@ -14,10 +14,8 @@
     "comment": ""
   },
   "attributes": {
-    "name": {
-      "type": "string",
-      "unique": true,
-      "required": true
+    "Tag": {
+      "type": "string"
     }
   }
 }

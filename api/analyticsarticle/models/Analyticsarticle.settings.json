@@ -7,7 +7,10 @@
   },
   "options": {
     "increments": true,
-    "timestamps": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
     "comment": ""
   },
   "attributes": {
@@ -15,14 +18,14 @@
       "required": true,
       "type": "string"
     },
-    "graphMd": {
+    "graphMarkdown": {
       "type": "richtext"
     },
     "graphSvg": {
       "required": true,
       "type": "richtext"
     },
-    "textMd": {
+    "textMarkdown": {
       "type": "richtext"
     },
     "textSvg": {

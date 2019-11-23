@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `Global` model.
+ * Lifecycle callbacks for the `Label` model.
  */
 
 module.exports = {

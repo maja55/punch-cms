@@ -1,7 +1,7 @@
 'use strict';
 
 /**
- * Lifecycle callbacks for the `Discipline` model.
+ * Lifecycle callbacks for the `Service` model.
  */
 
 module.exports = {

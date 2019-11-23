@@ -1,0 +1,41 @@
+{
+  "info": {
+    "name": "contactForm",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_contact_forms",
+  "attributes": {
+    "focusline": {
+      "type": "string"
+    },
+    "emailPlaceholder": {
+      "type": "string"
+    },
+    "emailSubject": {
+      "type": "string"
+    },
+    "emailIntro": {
+      "type": "string"
+    },
+    "submit": {
+      "type": "string"
+    },
+    "sending": {
+      "type": "string"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "emailAddress": {
+      "required": true,
+      "type": "email"
+    },
+    "success": {
+      "type": "text"
+    },
+    "error": {
+      "type": "text"
+    }
+  }
+}

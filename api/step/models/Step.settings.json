@@ -14,10 +14,6 @@
     "comment": ""
   },
   "attributes": {
-    "name": {
-      "required": true,
-      "type": "string"
-    },
     "title": {
       "required": true,
       "type": "string"

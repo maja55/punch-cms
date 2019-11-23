@@ -2,7 +2,7 @@
   "connection": "default",
   "collectionName": "global",
   "info": {
-    "name": "global",
+    "name": "label",
     "description": ""
   },
   "options": {
@@ -22,9 +22,9 @@
       "required": true,
       "type": "string"
     },
-    "email": {
-      "required": true,
-      "type": "email"
+    "contact": {
+      "group": "contact_form",
+      "type": "group"
     }
   }
 }
