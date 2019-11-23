@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "text",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_texts",
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

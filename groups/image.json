@@ -1,0 +1,22 @@
+{
+  "info": {
+    "name": "image",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_images",
+  "attributes": {
+    "width": {
+      "type": "integer"
+    },
+    "overflow": {
+      "type": "boolean"
+    },
+    "image": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

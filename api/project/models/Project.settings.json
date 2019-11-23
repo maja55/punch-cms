@@ -1,0 +1,54 @@
+{
+  "connection": "default",
+  "collectionName": "projects",
+  "info": {
+    "name": "project",
+    "description": "Contains all data about specific project"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "analyticsLayout": {
+      "type": "boolean"
+    },
+    "tags": {
+      "collection": "tag"
+    },
+    "ContentArticles": {
+      "collection": "contentarticle"
+    },
+    "intro": {
+      "type": "text"
+    },
+    "AnalyticsArticles": {
+      "collection": "analyticsarticle"
+    },
+    "Thumbnail": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "Heroimage": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    },
+    "PrevNextThumbnail": {
+      "model": "file",
+      "via": "related",
+      "plugin": "upload",
+      "required": true
+    }
+  }
+}

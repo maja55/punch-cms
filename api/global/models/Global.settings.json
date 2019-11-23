@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "global",
+  "info": {
+    "name": "global",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "copyright": {
+      "required": true,
+      "type": "string"
+    },
+    "punchline": {
+      "required": true,
+      "type": "string"
+    },
+    "email": {
+      "required": true,
+      "type": "email"
+    }
+  }
+}

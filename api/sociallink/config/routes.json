@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sociallinks",
+      "handler": "Sociallink.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sociallinks/count",
+      "handler": "Sociallink.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/sociallinks/:id",
+      "handler": "Sociallink.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/sociallinks",
+      "handler": "Sociallink.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sociallinks/:id",
+      "handler": "Sociallink.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sociallinks/:id",
+      "handler": "Sociallink.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

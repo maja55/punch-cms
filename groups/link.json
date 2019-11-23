@@ -1,0 +1,18 @@
+{
+  "info": {
+    "name": "Link",
+    "description": ""
+  },
+  "connection": "default",
+  "collectionName": "groups_links",
+  "attributes": {
+    "label": {
+      "required": true,
+      "type": "string"
+    },
+    "href": {
+      "required": true,
+      "type": "string"
+    }
+  }
+}

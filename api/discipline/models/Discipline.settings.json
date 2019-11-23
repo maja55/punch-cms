@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "disciplines",
+  "info": {
+    "name": "discipline",
+    "description": "work fields"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "heading": {
+      "unique": true,
+      "required": true,
+      "type": "string"
+    },
+    "items": {
+      "required": true,
+      "type": "json"
+    }
+  }
+}

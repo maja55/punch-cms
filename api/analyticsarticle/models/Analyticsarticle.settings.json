@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "analyticsarticles",
+  "info": {
+    "name": "analyticsarticle",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "title": {
+      "required": true,
+      "type": "string"
+    },
+    "graphMd": {
+      "type": "richtext"
+    },
+    "graphSvg": {
+      "required": true,
+      "type": "richtext"
+    },
+    "textMd": {
+      "type": "richtext"
+    },
+    "textSvg": {
+      "type": "richtext"
+    }
+  }
+}

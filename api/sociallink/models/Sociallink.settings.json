@@ -1,0 +1,28 @@
+{
+  "connection": "default",
+  "collectionName": "sociallink",
+  "info": {
+    "name": "sociallink",
+    "description": "social media link"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "href": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    },
+    "label": {
+      "type": "string",
+      "unique": true,
+      "required": true
+    }
+  }
+}

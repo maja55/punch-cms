@@ -1,0 +1,33 @@
+{
+  "connection": "default",
+  "collectionName": "contentarticles",
+  "info": {
+    "name": "contentarticle",
+    "description": "Project related post article containing text and image(s)"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": [
+      "created_at",
+      "updated_at"
+    ],
+    "comment": ""
+  },
+  "attributes": {
+    "image": {
+      "group": "image",
+      "type": "group"
+    },
+    "second_image": {
+      "group": "image",
+      "type": "group"
+    },
+    "text": {
+      "group": "text",
+      "type": "group"
+    },
+    "isFlipped": {
+      "type": "boolean"
+    }
+  }
+}
