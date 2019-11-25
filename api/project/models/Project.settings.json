@@ -20,35 +20,38 @@
     "analyticsLayout": {
       "type": "boolean"
     },
-    "ContentArticles": {
-      "collection": "contentarticle"
-    },
     "intro": {
       "type": "text"
     },
-    "Thumbnail": {
+    "thumbnail": {
       "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": true
     },
-    "Heroimage": {
+    "heroimage": {
       "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": true
     },
-    "PrevNextThumbnail": {
+    "prevNextThumbnail": {
       "model": "file",
       "via": "related",
       "plugin": "upload",
       "required": true
     },
     "tags": {
-      "collection": "tag"
+      "collection": "tag",
+      "autoPopulate": true
     },
-    "AnalyticsArticles": {
-      "collection": "analyticsarticle"
+    "contentArticles": {
+      "collection": "contentarticle",
+      "via": "project"
+    },
+    "analyticsArticles": {
+      "collection": "analyticsarticle",
+      "via": "project"
     }
   }
 }

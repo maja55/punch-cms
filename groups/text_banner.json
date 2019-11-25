@@ -6,17 +6,17 @@
   "connection": "default",
   "collectionName": "groups_banners",
   "attributes": {
-    "intro": {
-      "type": "string"
-    },
     "link": {
       "type": "string"
     },
     "description": {
       "type": "text"
     },
+    "intro": {
+      "type": "text"
+    },
     "punchline": {
-      "type": "string"
+      "type": "text"
     }
   }
 }

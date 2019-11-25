@@ -22,12 +22,22 @@
       "group": "image",
       "type": "group"
     },
-    "text": {
-      "group": "text",
-      "type": "group"
-    },
     "isFlipped": {
       "type": "boolean"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "project": {
+      "model": "project",
+      "via": "contentArticles"
+    },
+    "hint": {
+      "type": "string",
+      "private": true
     }
   }
 }

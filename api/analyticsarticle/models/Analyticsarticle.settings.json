@@ -30,6 +30,10 @@
     },
     "textSvg": {
       "type": "richtext"
+    },
+    "project": {
+      "model": "project",
+      "via": "analyticsArticles"
     }
   }
 }

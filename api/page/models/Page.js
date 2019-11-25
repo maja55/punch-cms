@@ -15,7 +15,9 @@ module.exports = {
 
   // Before fetching a value.
   // Fired before a `fetch` operation.
-  // beforeFetch: async (model, columns, options) => {},
+  // beforeFetch: async (model, columns, options) => {
+  //   console.log({ model, columns, options })
+  // },
 
   // After fetching a value.
   // Fired after a `fetch` operation.
@@ -23,11 +25,15 @@ module.exports = {
   
   // Before fetching all values.
   // Fired before a `fetchAll` operation.
-  // beforeFetchAll: async (model, columns, options) => {},
+  // beforeFetchAll: async (model, columns, options) => {
+  //   console.log({ options })
+  // },
 
   // After fetching all values.
   // Fired after a `fetchAll` operation.
-  // afterFetchAll: async (model, response, options) => {},
+  // afterFetchAll: async (model, response, options) => {
+  //   console.log({ model, response, options })
+  // },
 
   // Before creating a value.
   // Fired before an `insert` query.

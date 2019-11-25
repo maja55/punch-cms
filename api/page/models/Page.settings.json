@@ -43,9 +43,6 @@
       "group": "text_banner",
       "type": "group"
     },
-    "projects": {
-      "collection": "project"
-    },
     "news": {
       "collection": "news"
     },
@@ -62,6 +59,13 @@
     },
     "steps": {
       "collection": "step"
+    },
+    "projects": {
+      "collection": "project"
+    },
+    "extraTextBanner": {
+      "group": "text_banner",
+      "type": "group"
     }
   }
 }

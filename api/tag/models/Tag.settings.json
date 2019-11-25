@@ -14,7 +14,7 @@
     "comment": ""
   },
   "attributes": {
-    "Tag": {
+    "label": {
       "type": "string"
     }
   }
